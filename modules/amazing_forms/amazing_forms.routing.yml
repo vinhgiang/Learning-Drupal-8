@@ -1,0 +1,7 @@
+amazing_forms.contribute:
+  path: 'amazing-form/contribute'
+  defaults:
+    _form: 'Drupal\amazing_forms\Form\ContributeForm'
+    _title: 'My first amazing form'
+  requirements:
+    _permission: 'access content'

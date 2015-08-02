@@ -1,0 +1,6 @@
+name: 'My first Alter Form'
+description: 'This function to alter "Amazing Form"'
+type: module
+package: Custom
+core: 8.x
+hidden: false

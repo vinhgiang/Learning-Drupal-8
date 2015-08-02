@@ -1,0 +1,38 @@
+helloworld.morning:
+  path: '/morning'
+  defaults:
+    _controller: '\Drupal\helloworld\Controller\HelloController::contentMorning'
+    _title: 'Good morning'
+  requirements:
+    _permission: 'access content'
+
+
+helloworld.hello:
+  path: '/hello/{name}'
+  defaults:
+    _controller: '\Drupal\helloworld\Controller\HelloController::content'
+    _title: 'Hello world'
+    name: 'HCM'
+  requirements:
+    _permission: 'access content'
+
+
+helloword.dynamic:
+  path: 'dynamic'
+  default:
+    _controller: '\Drupal\helloworld\Controller\HelloController::dynamic'
+    _title: 'Dynamic routes'
+  requirements:
+    _permission: 'access content'
+
+route_callbacks:
+  - '\Drupal\helloworld\Routing\ExampleRoutes::routes'
+
+
+helloworld.form:
+  path: '/form'
+  defaults:
+    _form: '\Drupal\helloworld\Form\ExampleForm'
+    _title: 'form'
+  requirements:
+    _permission: 'access content'

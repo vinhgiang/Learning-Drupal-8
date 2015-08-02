@@ -1,0 +1,7 @@
+<?php
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function alter_form_form_amazing_forms_contribute_form_alter(&$form, &$form_state) {
+    $form['title']['#title'] = t('Tên:');
+}

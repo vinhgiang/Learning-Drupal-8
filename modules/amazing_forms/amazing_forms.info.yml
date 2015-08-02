@@ -1,0 +1,6 @@
+name: My First Amazing Form
+description: 'My drupal 8 custome form'
+type: module
+package: Custom
+core: 8.x
+hidden: false
