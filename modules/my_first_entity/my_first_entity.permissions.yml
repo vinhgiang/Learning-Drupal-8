@@ -1,0 +1,32 @@
+
+view Course entity:
+  title: 'View Course entity'
+  description: 'Allow view my Course'
+
+edit Course entity:
+  title: 'Edit Course entity'
+  description: 'Allow edit my Course'
+
+delete Course entity:
+  title: 'Delete Course entity'
+  description: 'Allow delete my Course'
+
+administer Course entity:
+  title: 'Adminster Course entity'
+  description: 'Allow administer my Course'
+
+view Workshop entity:
+  title: 'View Workshop entity'
+  description: 'Allow view my Workshop'
+
+edit Workshop entity:
+  title: 'Edit Workshop entity'
+  description: 'Allow edit my Workshop'
+
+delete Workshop entity:
+  title: 'Delete Workshop entity'
+  description: 'Allow delete my Workshop'
+
+administer Workshop entity:
+  title: 'Adminster Workshop entity'
+  description: 'Allow administer my Workshop'
