@@ -36,3 +36,11 @@ helloworld.form:
     _title: 'form'
   requirements:
     _permission: 'access content'
+
+hellonewworld.form:
+  path: '/form'
+  defaults:
+    _form: '\Drupal\helloworld\Form\ExampleForm'
+    _title: 'form'
+  requirements:
+    _permission: 'access content'
